@@ -1,6 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-h1{
-  font-family:'Creepster'
+h1 {
+  font-family: "Jacquard 12", system-ui, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* Tamanho fixo */
+  text-align: center;
+}
+
+.caixa {
+  border: 1px solid black;
+  /* Borda fixa de 1 pixel */
+}
+
+.classe_link {
+
+  font-size: 1rem;
+}
+
+/* .classe_link:link {
+  color: rgb(226, 98, 43);
+} */
+
+.classe_link:visited {
+  color: #c009ae;
+  /* Roxo para links já visitados */
+}
+
+.classe_link:hover {
+  color: #07eee6;
+  text-decoration: underline;
+  /* Adiciona sublinhado apenas no hover */
+}
+
+.classe_link:active {
+  color: rgb(31, 217, 50);
+  /* Vermelho enquanto o link está sendo pressionado */
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+  /* Usa rem para espaçamento consistente */
+  border-radius: 8px;
+  /* Cantos suavemente arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra sutil */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+article {
+  background-color: #c009ae;
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+
+article .avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
